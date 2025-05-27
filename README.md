@@ -26,3 +26,14 @@ my-app/
 ├── .gitignore
 ├── README.md
 └── docker-compose.yml        # اجرای همزمان Go و React
+
+
+
+backend/
+├── main.go                   ✅ راه‌انداز اصلی
+├── config/config.go          ✅ اتصال به دیتابیس
+├── models/user.go            ✅ مدل User
+├── controllers/auth.go       ✅ هندلرهای ثبت‌نام و ورود
+├── routes/routes.go          ✅ تعریف مسیرهای Auth
+├── utils/token.go            ✅ تولید و بررسی JWT
+└── utils/password.go         ✅ هش و بررسی رمز عبور
