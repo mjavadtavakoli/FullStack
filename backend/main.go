@@ -20,5 +20,5 @@ func main() {
 		c.JSON(200, gin.H{"message": "Hello from backend!"})
 	})
 
-	r.Run(":1725")
+	r.Run(":8080")
 }
