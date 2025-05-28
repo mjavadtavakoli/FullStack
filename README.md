@@ -29,9 +29,11 @@ FullStack/
 Make sure PostgreSQL is running and the connection details are correctly set in `backend/config/config.go`.
 
 ```bash
+
 cd backend
 go run main.go
-````
+
+```
 
 ### 2. Frontend
 
