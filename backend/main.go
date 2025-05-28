@@ -20,5 +20,9 @@ func main() {
 		c.JSON(200, gin.H{"message": "Hello from backend!"})
 	})
 
+	r.POST("/register", func(c *gin.Context) {
+		c.JSON(200, gin.H{"message": "register ok"})
+	})
+
 	r.Run(":8080")
 }

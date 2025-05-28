@@ -1,9 +1,9 @@
 package controllers
 
 import (
+	"FullStack/backend/utils"
 	"FullStack/config"
 	"FullStack/models"
-	"FullStack/utils"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

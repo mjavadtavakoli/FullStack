@@ -2,7 +2,7 @@ package routes
 
 import (
 	"FullStack/controllers"
-	"FullStack/middleware"
+	"backend/middleware"
 
 	"github.com/gin-gonic/gin"
 )
@@ -20,6 +20,6 @@ func MeetingRoutes(r *gin.Engine) {
 		auth.GET("/", controllers.GetMeetings)
 		auth.PUT("/:id", controllers.UpdateMeeting)
 		auth.DELETE("/:id", controllers.DeleteMeeting)
+		auth.POST("/:id/invite", controllers.InviteUser)
 	}
 }
-auth.POST("/:id/invite", controllers.InviteUser)
