@@ -12,7 +12,7 @@ FullStack/
 ├── backend/       # Go server using Gin and PostgreSQL
 ├── frontend/      # React app powered by Vite
 
-````
+
 
 ## ⚙️ Technologies Used
 
