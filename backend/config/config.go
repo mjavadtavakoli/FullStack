@@ -11,7 +11,8 @@ import (
 var DB *gorm.DB
 
 func ConnectDatabase() {
-	dsn := "host=localhost user=postgres password=7878 dbname=fullstack_db port=5433 sslmode=disable"
+	dsn := "host=localhost user=postgres password=0000 dbname=fullstack_db port=5433 sslmode=disable"
+
 	database, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 
 	if err != nil {
